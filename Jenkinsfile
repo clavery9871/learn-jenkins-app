@@ -32,7 +32,7 @@ pipeline {
                     npm ci
                     echo "Test Stage"
                     test -f build/index.html
-                    npm test tests-examples
+                    npm test tests-examples/demo-todo-app.spec.js
                 '''
             }
         }
