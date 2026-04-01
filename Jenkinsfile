@@ -31,7 +31,7 @@ pipeline {
         stage('E2E') {
             agent {
                 docker {
-                    image 'mcr.microsift.com/playwright:v1.58.2-noble'
+                    image 'mcr.microsoft.com/playwright:v1.58.2-noble'
                     reuseNode true
                 }
             }
